@@ -104,7 +104,7 @@ npm install
 ```
 Run Unit tests
 ```bash
-npm run test
+npm run test:watch
 ```
 
 ## E2E Testing
