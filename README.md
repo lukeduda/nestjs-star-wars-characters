@@ -2,6 +2,10 @@
 
 REST API based on Nest.js and MongoDB, with unit and e2e test suites.
 
+For now only simplified environments are specified:
+- development (docker-compose based)
+- test (npm run based)
+
 ## Easiest startup
 ```bash
 docker-compose up --build
