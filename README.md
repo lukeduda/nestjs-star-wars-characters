@@ -93,6 +93,11 @@ http://localhost:3000/api/
 ```
 
 ## Unit Testing
+**Optional** - remove existing node_modules bound to the docker-compose instance
+```bash
+sudo rm -rf node_modules
+```
+
 Install dependencies
 ```bash
 npm install
@@ -103,6 +108,10 @@ npm run test
 ```
 
 ## E2E Testing
+**Optional** - remove existing node_modules bound to the docker-compose instance
+```bash
+sudo rm -rf node_modules
+```
 
 Below commands create testing `.env` file and setup testing MongoDB.
 ```bash
