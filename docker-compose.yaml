@@ -16,6 +16,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./:/code
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
     environment:
       MONGODB_URI: mongodb://db:27017/star-wars
