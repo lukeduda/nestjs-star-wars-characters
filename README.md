@@ -1,6 +1,6 @@
 # Star Wars Characters API
 
-REST API based on Nest.js and MongoDB, with unit and e2e test suites.
+REST API based on Nest.js and MongoDB, with unit and e2e test suites!
 
 For now only simplified environments are specified:
 - development (docker-compose based)
